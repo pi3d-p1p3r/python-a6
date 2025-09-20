@@ -1,10 +1,10 @@
 import math
 import matplotlib.pyplot as plt
 
-# Setup
 S0, K, r, q, sg, T, n = 484, 480, 0.10, 0.03, 0.25, 2/12, 4
-u, d = math.exp(sg*(T/n)**0.5), math.exp(-sg*(T/n)**0.5)
-p, disc = (math.exp((r-q)*T/n)-d)/(u-d), math.exp(-r*T/n)
+dt = T/n 
+u, d = math.exp(sg*(dt)**0.5), math.exp(-sg*(dt)**0.5)
+p, disc = (math.exp((r-q)*dt)-d)/(u-d), math.exp(-r*dt)
 
 print(f"u={u:.3f}, d={d:.3f}, p={p:.3f}")
 
