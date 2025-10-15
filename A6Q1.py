@@ -22,7 +22,7 @@ data={
     'Future Cashflow (A)':FV_A,
     'Future Cashflow (B)':FV_B,
     'Present Value (A)':PV_A,
-    'Present Value (B)':PV_B,
+    'Present Value (B)':PV_B
 }
 df=pd.DataFrame(data)
 print(df)
