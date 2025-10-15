@@ -17,7 +17,7 @@ df_A,PV_A=PV(FV_A,t)
 df_B,PV_B=PV(FV_B,t)
 
 data={
-    'time (years)':t,
+    'Time (yrs)':t,
     'Discount Factor':df_A,
     'Future Cashflow (A)':FV_A,
     'Future Cashflow (B)':FV_B,
